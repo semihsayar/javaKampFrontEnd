@@ -21,7 +21,7 @@ export default function Dashboard() {
             <Route exact path="/products" element={<ProductList/>}/>
             <Route path="/products/:name" element={<ProductDetail/>}/>
             <Route path="/cart" element={<CartDetail/>}/>
-            <Route path="/add" element={<ProductAdd/>}/>
+            <Route path="/product/add" element={<ProductAdd/>}/>
             </Routes>
           </GridColumn>
         </GridRow>
